@@ -3,4 +3,4 @@
 <courses></courses>
 <app-course></app-course>
 
-<app-favorite [isFavorite]="post.isFavorite"></app-favorite>
+<app-favorite [isFavorite]="post.isFavorite" (change)="onFavoriteChanged($event)"></app-favorite>
